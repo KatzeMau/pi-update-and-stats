@@ -1,3 +1,3 @@
 ##Update and show stats 
 chmod +x 
-add to crontab
+add to crontab Wartung.sh

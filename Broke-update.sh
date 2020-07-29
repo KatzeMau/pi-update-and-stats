@@ -5,6 +5,7 @@ apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
 pihole -up
+pihole -g
 # This script will return the following set of system information:
 # -Hostname information:
 echo -e "\e[31;43m***** HOSTNAME INFORMATION *****\e[0m"
@@ -33,3 +34,4 @@ echo ""
 echo -e "\e[1;32mDone.\e[0m"
 sleep 90
 reboot
+exit
